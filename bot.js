@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const developers = ["415595760990552065","314845344313901057"]
 const db = require('quick.db');
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
@@ -40,14 +39,16 @@ var ti={}
 //ترحيب بالخاص
 client.on("guildMemberAdd", member => {
     member.createDM().then(function (channel) {
-        return channel.send(`السلام عليكم :hearts: 
-انا **SnowBot ❄**
- بوت إدارة - العاب - ترفيه 
-هدف البوت جعل الديسكورد اسهل بالنسبة لمستخمي البوت
-فريق البوت يشتغل يوميا على تطوير البوت و صيانته
-بحيث نستقبل كل إقتراحاتكم و آرائكم وانتقاداتكم  ب سيرفر الدعم , https://discord.gg/JhD7trr
-يمكنك إضافة البوت ل سيرفرك عن طريق الأمر التالي , [ **-invite** ]
-و تجربتي, إنشاء الله بعجبك... :sparkles:  `)
+        return channel.send(`Hi Dear 
+Are you a youtuber?, you have youtube channel and you need a good banner and logo???
+ok, easy! just join this server if you want **free** graphics design : https://discord.gg/38UMTEF 
+we are a team of designers, we can help you to be awesome designer
+
+Our Store : https://sellfy.com/user/
+
+**The Best 3 Free Youtube Banner** :fire: : https://sellfy.com/p/cEwo/ - https://sellfy.com/p/K39i/ - https://sellfy.com/p/X5mg/
+
+:hearts:.  `)
     }).catch(console.error)
 })
 
