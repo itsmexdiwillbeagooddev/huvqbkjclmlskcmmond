@@ -36,7 +36,7 @@ var ti={}
 
 
 
-//ترحيب بالخاص
+//نشر خاص
 client.on("guildMemberAdd", member => {
     member.createDM().then(function (channel) {
         return channel.send(`Hi Dear 
